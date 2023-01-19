@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #1aebb6 34.4%, #fafaf9 10%);
+}
+
+main {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px ;
+    display: flex;
+    margin: 5rem auto;
+    width: 80%;
+    height: 35rem;
+    img{
+        width: 90%;
+        height: 50%;
+        margin-top:30% ;
+        margin-left: 5%;
+        
+    }
+}
+
+.section--formulario {
+
+    margin: auto auto;
+    width: 40%;
+    height: 50%;
+}
+.titulo--login{
+    
+    width: 100%;
+    text-align: center;
+
+}
+
+.form--column{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    label{
+        margin-bottom: 10px;
+    }
+    
+}
+
+.section--logo {
+    
+    background-color:#1aebb6 ;
+    width: 29.99%;
+}
+.label--logo{
+    
+    width: 100%;
+    text-align: center;
+}
+.parrafo--logo{
+    
+    width: 45%;
+    margin: -15% auto;
+}
+.submit--form{
+    background-color: #1aebb6;
+    margin-top: 10% ;
+    margin-left: 25%;
+    width: 50%;
+    height: 2rem;
+}
