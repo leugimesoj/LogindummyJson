@@ -8,7 +8,7 @@ formulario.addEventListener("submit", async (evento) => {
   response[email.name]=email.value
   response[password.name]=password.value
  const jsonResponse= await validacionDatos(response)
- if(jsonResponse.status){
+ if(jsonResponse.status===200){
     console.log(jsonResponse)
     const usuario=jsonResponse.user
     alert("iniciando sesion del usuario: ",usuario)

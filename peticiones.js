@@ -7,11 +7,13 @@ async  function getUSuarios(){
 
 export async function validacionDatos(data ){
     const usuarios= await getUSuarios();
-    let response={status:false,user:""};
+    let response={status:404,user:""};
     console.log(data)
+
     usuarios.users.map((item)=>{
         if(item.email==data.email && item.password== data.password){
-            response.status=true
+            
+            response.status=200
             response.user=item.username
         }
     })
