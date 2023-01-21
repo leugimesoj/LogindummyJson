@@ -4,7 +4,12 @@ async  function getUSuarios(){
     
     
 }
-
+export const getPersoanjes=async ()=>{
+    const url="https://rickandmortyapi.com/api/character"
+    const response=await fetch(url)
+    const jsonResponse= await response.json() 
+    return jsonResponse.results
+   }
 export async function validacionDatos(data ){
     const usuarios= await getUSuarios();
     let response={status:404,user:""};
@@ -19,4 +24,11 @@ export async function validacionDatos(data ){
     })
     
     return response
+}
+
+export const  getUserById=async (id)=>{
+const url="https://rickandmortyapi.com/api/character/"+id
+const response= await fetch(url)
+const jsonResponse=await response.json()
+return jsonResponse
 }

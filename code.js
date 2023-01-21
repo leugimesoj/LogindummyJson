@@ -12,8 +12,10 @@ formulario.addEventListener("submit", async (evento) => {
     console.log(jsonResponse)
     const usuario=jsonResponse.user
     alert("iniciando sesion del usuario: ",usuario)
+   console.log(window.location.href)
+    window.location.href="http://127.0.0.1:5500/dashboard.html"
  }else{
     alert("Esta intentando ingresar con datos erroneos")
  }
-
+ 
 });

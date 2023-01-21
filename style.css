@@ -1,9 +1,9 @@
 body {
   font-family: sans-serif;
-  background: linear-gradient(90deg, #1aebb6 34.4%, #fafaf9 10%);
+  background: linear-gradient(124deg, rgb(221, 168, 74) 70%, rgb(234, 195, 74) 70%);
 }
 
-main {
+.main {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
   display: flex;
@@ -11,17 +11,59 @@ main {
   width: 80%;
   height: 35rem;
 }
-main img {
+.main img {
   width: 90%;
   height: 50%;
   margin-top: 30%;
   margin-left: 5%;
 }
 
+.card-caracteristica--personaje {
+  border: 1px black solid;
+}
+
+.imagen-persoanje--caracteristicas {
+  width: 50%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.card-descripcion--personaje {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  width: 80%;
+  height: 35rem;
+}
+
+.div--principal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-image: url("ricymorty.png");
+  background-size: 100% 100%;
+}
+
+.titulo--main {
+  width: 40%;
+  height: 20%;
+  text-align: left;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
 .section--formulario {
-  margin: auto auto;
+  margin: 2rem 1rem;
   width: 40%;
   height: 50%;
+}
+.section--formulario input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 60%;
 }
 
 .titulo--login {
@@ -39,8 +81,14 @@ main img {
 }
 
 .section--logo {
-  background-color: #1aebb6;
-  width: 29.99%;
+  width: 30%;
+}
+
+.card--personajes {
+  border: 1px black solid;
+  display: flex;
+  width: 80%;
+  margin: 5rem auto;
 }
 
 .label--logo {
@@ -48,15 +96,42 @@ main img {
   text-align: center;
 }
 
+.div--titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen--personaje {
+  width: 10rem;
+  height: 10rem;
+}
+
+.boton--informacion {
+  color: green;
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.nombre--personaje {
+  text-align: center;
+}
+
 .parrafo--logo {
-  width: 45%;
-  margin: -15% auto;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .submit--form {
-  background-color: #1aebb6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 10%;
-  margin-left: 25%;
-  width: 50%;
-  height: 2rem;
+  margin-left: 30%;
+  width: 30%;
+  height: 1.5rem;
+}
+
+.text--logo {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
